@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      
 
 jobs:
   crear_nuevo_cliente:
@@ -12,14 +11,12 @@ jobs:
     steps:
       - name: Imprimir mensaje para la creación de un nuevo cliente
         run: echo "Acción: Crear Nuevo Cliente"
-        
 
   actualizar_cliente_recurrente:
     runs-on: ubuntu-latest
     steps:
       - name: Imprimir mensaje para la actualización de un cliente recurrente
         run: echo "Acción: Actualizar Cliente Recurrente"
-        
 
   consultar_cliente:
     runs-on: ubuntu-latest
